@@ -1,0 +1,55 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* футер текст rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A */
+/* цвет фона чем мы занимаемся rgba(47, 48, 58, 0.8) */
+
+:root {
+  --titel-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-text-color: #ffffff;
+}
+
+body {
+  background-color: var(--secondary-text-color);
+  color: var(--titel-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* ЛОГО */
+.logo-excerpt {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--titel-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Contact nav */
+.contact-nav .link {
+  color: var(--primary-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Caption */
+
+/* Features */
+
+.img-features {
+  background-color: #e7472b;
+  border: 2px solid red;
+}
