@@ -23,7 +23,20 @@ ul {
   list-style: none;
 }
 
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--secondary-text-color);
+  background: var(--accent-color);
+}
+
 /* ЛОГО */
+.logo {
+  color: var(--titel-text-color);
+}
 .logo-excerpt {
   color: var(--accent-color);
 }
@@ -32,10 +45,10 @@ ul {
 .site-nav .link {
   color: var(--titel-text-color);
 }
-
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 /* Contact nav */
 .contact-nav .link {
   color: var(--primary-text-color);
@@ -46,10 +59,71 @@ ul {
 }
 
 /* Caption */
+.caption-title {
+  color: var(--secondary-text-color);
+  background: rgba(47, 48, 58, 0.8);
+}
 
 /* Features */
+.features-text {
+  color: var(--primary-text-color);
+}
 
-.img-features {
-  background-color: #e7472b;
-  border: 2px solid red;
+/* Device */
+.device {
+  color: var(--secondary-text-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* Our team */
+.position {
+  color: var(--primary-text-color);
+}
+
+/* Clients */
+.clients:hover,
+.clients:focus {
+  color: var(--accent-color);
+}
+
+/* Footer */
+.address {
+  color: var(--secondary-text-color);
+  background: #2f303a;
+}
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.connecting {
+  color: var(--secondary-text-color);
+  background: #2f303a;
+}
+.connecting .social-link {
+  color: var(--secondary-text-color);
+}
+.connecting .social-link:hover,
+.connecting .social-link:focus {
+  color: var(--accent-color);
+}
+.subscribe {
+  color: var(--secondary-text-color);
+  background: #2f303a;
+}
+
+/* PORTFOLIO */
+.button-filter {
+  background-color: #f5f4fa;
+}
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.projects-description {
+  color: var(--primary-text-color);
+}
+
+.projects-img:hover,
+.projects-img:focus {
+  background-color: rgba(33, 150, 243, 0.9);
 }
